@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arepas de atún - Amiguis en la cocina</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff9e6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #ff6b6b;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e64980 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #feca57;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .recipe {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .recipe h1, .recipe h2 {
+            color: #ff6b6b;
+        }
+        .recipe-img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        footer {
+            background: #ff6b6b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Amiguis</span> en la cocina</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="current"><a href="arepa.html">Arepas de atún</a></li>
+                    <li><a href="huevonada.html">Huevonada</a></li>
+                    <li><a href="pita.html">Pita de cerdo</a></li>
+                    <li><a href="sancocho.html">Sancocho</a></li>
+                    <li><a href="flan.html">Flan de yuca</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="recipe">
+            <h1>Pa' cuando el bolsillo esté volando bajito: Arepitas con atún (primita)</h1>
+            
+            <img src="/api/placeholder/600/400" alt="Arepas de atún" class="recipe-img">
+            
+            <h2>Ingredientes:</h2>
+            <ul>
+                <li>1 ½ tazas de Harina Pan. A ver si eso se consigue por allá, comadre</li>
+                <li>1 ½ tazas de agua tibia (ni muy muy, ni tan tan)</li>
+                <li>½ taza de leche: a veces toca a punta e' agua pero ajá, si puedes</li>
+                <li>Sal al ojo, primita</li>
+                <li>1 cucharada de mantequilla de burro (Paco)</li>
+                <li>Queso rallado al gusto. Ojalá costeño para que tengan el toque criollito</li>
+                <li>2 latas de atún en Agua ekono</li>
+                <li>Mayonesita al gusto</li>
+                <li>Limón del que le echarías a ya sabes quién en los ojos cuando se pone a joder JAJA</li>
+            </ul>
+            
+            <h2>Instrucciones:</h2>
+            <ol>
+                <li><strong>El Meneaito de la masa:</strong> Mezcla la harina, sal, agua y leche en un tazón. Dale duro mama que este es el paso más importante. Luego le zampas una cachetada de mantequilla y queso cojteño.</li>
+                <li><strong>Arma las arepitas comadre:</strong> Divide la masa en 6 porciones, forma bolas (como las de Pochi) y aplánalas hasta obtener la forma de las arepitas.</li>
+                <li><strong>Pa'l sarten:</strong> Calienta un sartén a fuego medio alto y cocínalas por 5-7 minutos por cada lado hasta que estén bronceaditas como cuando vivías en el pueblo primita.</li>
+                <li><strong>El atún es breve, mi herma.</strong> Zampa esa vaina en un aparatejo y con un tenedor lo revuelves con el limón, la sal y la mayonesa.</li>
+            </ol>
+        </div>
+    </div>
+
+    <footer>
+        <p>Amiguis en la cocina, Copyright &copy; 2024</p>
+    </footer>
+</body>
+</html>
